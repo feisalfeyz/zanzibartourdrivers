@@ -1,0 +1,47 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tourdriver"},
+{"type":"table","name":"admin","database":"tourdriver","data":
+[
+{"id":"1","username":"Admin12","password_hash":"Usr@1234","created_at":"2024-09-14 08:00:27"},
+{"id":"2","username":"Admin01","password_hash":"$2y$10$tBlq\/K.i6ltoyqa3Rb55du.FMFIUz85e29Wgnt1kFuB6ZuHHD8n5C","created_at":"2024-09-14 08:44:31"}
+]
+}
+,{"type":"table","name":"admin_logs","database":"tourdriver","data":
+[
+
+]
+}
+,{"type":"table","name":"items","database":"tourdriver","data":
+[
+{"item_id":"1","user_id":"1","item_name":"Camera","location":"Kiwengwa","color":"#d3e3fd","description":"klkndlasnl","picture_url":"uploads\/66e3b9b7f3d6e.jpg","created_at":"2024-09-13 07:04:08","item_type":"lost"},
+{"item_id":"2","user_id":"2","item_name":"Laptop","location":"Kiwengwa","color":"#5c0ad6","description":"kahskakdajk","picture_url":"uploads\/66e3ba85846bb.png","created_at":"2024-09-13 07:07:33","item_type":"lost"},
+{"item_id":"3","user_id":"3","item_name":"Camera","location":"Kiwengwa","color":"#600be0","description":"jkhkjhknlm","picture_url":"uploads\/66e3be356dacf.png","created_at":"2024-09-13 07:23:17","item_type":"found"},
+{"item_id":"4","user_id":"4","item_name":"Camera","location":"Kiwengwa","color":"#5d23b3","description":"nklfas;lm;fm","picture_url":"uploads\/66e3c0655e143.png","created_at":"2024-09-13 07:32:37","item_type":"found"},
+{"item_id":"5","user_id":"6","item_name":"Camera","location":"Kiwengwa","color":"#5d23b3","description":"nklfasfdsmkjfm","picture_url":"uploads\/66e3c11b962b3.png","created_at":"2024-09-13 07:35:39","item_type":"found"},
+{"item_id":"6","user_id":"8","item_name":"Camera","location":"Kiwengwa","color":"#5d23b3","description":"nklfasfdsmkjfm","picture_url":"uploads\/66e3c206114f9.png","created_at":"2024-09-13 07:39:34","item_type":"found"},
+{"item_id":"7","user_id":"10","item_name":"Camera","location":"Kiwengwa","color":"#5d23b3","description":"nklfasfdsmkjfm","picture_url":"uploads\/66e3ccb013650.png","created_at":"2024-09-13 08:25:04","item_type":"found"}
+]
+}
+,{"type":"table","name":"message","database":"tourdriver","data":
+[
+{"id":"6","full_name":"Mansoji","email":"sasnaj@kasa.com","phone_number":"+255779875490","message":"hdoajoasa","agree_conditions":"1","created_at":"2024-09-15 03:08:06"}
+]
+}
+,{"type":"table","name":"password_resets","database":"tourdriver","data":
+[
+
+]
+}
+,{"type":"table","name":"users","database":"tourdriver","data":
+[
+{"user_id":"1","full_name":"Jo Massu Kombo","email_address":"khalidkhayrun@gmail.com","phone_number":"+255779875498","remember_me":"1"},
+{"user_id":"2","full_name":"Feisal Mussa","email_address":"feisalfeyz@gmail.com","phone_number":"+255779875476","remember_me":"1"},
+{"user_id":"3","full_name":"Jo Massu Kombo N","email_address":"salamahassanabdalla@gmail.com","phone_number":"+255779875477","remember_me":"1"},
+{"user_id":"4","full_name":"Feisal Mussa vua","email_address":"feisalvuai@gmail.com","phone_number":"+255779875476","remember_me":"1"},
+{"user_id":"6","full_name":"Feisal Mussa vua","email_address":"feisalvuair@gmail.com","phone_number":"+255779875476","remember_me":"1"},
+{"user_id":"8","full_name":"Feisal Mussa vua","email_address":"feisalvguair@gmail.com","phone_number":"+255779875476","remember_me":"1"},
+{"user_id":"10","full_name":"Feisal Mussa vua1","email_address":"feisalvguapr@gmail.com","phone_number":"+255779875476","remember_me":"1"}
+]
+}
+]

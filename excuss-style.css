@@ -1,0 +1,32 @@
+
+.carousel-item {
+    height: 70vh; /* Set a consistent height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.carousel-item img {
+    max-height: 100%; /* Ensures images fit within the carousel */
+    object-fit: cover; /* Maintains aspect ratio and covers the area */
+    width: 100%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better text readability */
+    color: white; /* Text color */
+    padding: 15px; /* Spacing around the text */
+    border-radius: 5px; /* Rounded corners */
+    bottom: 20px; /* Positioning */
+}
+
+h5 {
+    font-size: 1.5em; /* Larger font size for headings */
+    font-weight: bold; /* Bold headings */
+}
+
+p {
+    font-size: 1.1em; /* Adjusted font size for readability */
+    line-height: 1.5; /* Increased line spacing for readability */
+}
